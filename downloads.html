@@ -1,0 +1,67 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Downloads | Minha nova marca</title><style>body{margin:0;font-family:Inter,Arial;background:#f6f7fb;color:#172033}nav,main{padding:25px 7%}nav{background:white}nav a{margin-right:20px}main{max-width:1000px;margin:auto}article{background:white;padding:22px;border-radius:15px;margin:15px 0;box-shadow:0 8px 25px #0001}a{color:#6d5dfc;font-weight:bold}</style><style>
+/* Feedback de acionamento sem alterar o transform usado no posicionamento. */
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]) {
+  transition: scale 120ms ease, translate 120ms ease, box-shadow 120ms ease;
+}
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):active:not(:disabled):not([aria-disabled="true"]) {
+  scale: .96;
+  translate: 0 2px;
+  box-shadow: inset 0 0 0 2px currentColor !important;
+}
+:where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  :where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]) { transition: none; }
+  :where(button, input[type="button"], input[type="submit"], input[type="reset"], a.btn, a.preview-cta, a[role="button"], a[href^="https://wa.me/"]):active { scale: none; translate: none; }
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html,body{width:100%;max-width:100%;min-width:320px;overflow-x:hidden}
+body{margin:0}
+img,video,iframe{max-width:100%;height:auto}
+#sitefacil-formas>span.forma-com-imagem[data-forma-imagem]>img{object-fit:cover!important}
+nav{box-sizing:border-box;max-width:100%;height:auto;min-height:0;flex-wrap:wrap;gap:12px}
+nav div{display:flex;min-width:0;max-width:100%;flex-wrap:wrap;gap:8px 14px}
+nav a{margin:0;overflow-wrap:anywhere}
+main,section,.hero,.sec,.conteudo,.pagina-principal,.pagina-blocos,.wrap,.post{min-width:0;max-width:100%}
+h1,h2,h3,p,.sf-texto,article{min-width:0;overflow-wrap:anywhere}
+button,.btn,input,textarea,select{font:inherit}
+button,.btn{max-width:100%;overflow-wrap:anywhere}
+table{display:block;width:100%;max-width:100%;overflow-x:auto}
+pre,code{max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}
+.hero h1,.hero p,.conteudo .pagina-principal>h1,.conteudo .pagina-principal .sf-texto{max-width:100%;transform:none!important}
+.conteudo .pagina-principal .sf-texto blockquote{margin-left:0!important;padding-left:0!important}
+.bloco,.card,article{box-sizing:border-box}
+form{width:100%;max-width:650px}
+input,textarea,select{box-sizing:border-box;max-width:100%}
+@supports not (display:grid){
+  .cards,.gallery,.grid,.pagina-blocos{display:flex;flex-wrap:wrap}
+  .cards>*,.gallery>*,.grid>*,.pagina-blocos>*{flex:1 1 220px;min-width:0}
+  .bloco.imagem-esquerda,.bloco.imagem-direita{display:flex;flex-direction:column}
+  .bloco.imagem-esquerda>img,.bloco.imagem-direita>img{width:100%;height:auto}
+}
+@media(max-width:900px){
+  nav{align-items:flex-start;flex-direction:column;padding:16px 5%}
+  nav div{width:100%}
+  nav img{height:auto;max-height:52px;transform:none!important}
+  .conteudo.duas-colunas{grid-template-columns:minmax(0,1fr)}
+  #sitefacil-formas>span.forma-com-imagem{transform:translate(-50%,-50%) scale(.55)!important}
+}
+@media(max-width:760px){
+  .conteudo,.conteudo.amplo{width:100%;margin:0 auto;padding:clamp(20px,5vw,32px);border-radius:0}
+  .conteudo h1,.hero h1{font-size:clamp(1.8rem,8vw,3rem)!important;line-height:1.15}
+  .conteudo h2,.hero h2{font-size:clamp(1.4rem,6vw,2.2rem)!important;line-height:1.2}
+  .conteudo p,.hero p{font-size:clamp(1rem,4vw,1.15rem)!important}
+  .hero{min-height:0;padding:clamp(48px,12vw,88px) 6%}
+  .hero>div{max-width:100%}
+  .sec{padding:clamp(36px,8vw,64px) 6%}
+  .cards,.gallery,.grid{grid-template-columns:minmax(0,1fr)!important}
+  .bloco.imagem-esquerda,.bloco.imagem-direita{grid-template-columns:minmax(0,1fr)}
+  .bloco.imagem-direita img,.bloco.imagem-direita div{grid-column:auto;grid-row:auto}
+  .post{width:calc(100% - 24px);margin:12px auto;padding:clamp(18px,5vw,32px)}
+  .post h1{font-size:clamp(1.8rem,8vw,3rem)}
+  .btn{transform:none!important}
+}
+</style></head><body><nav><a href="./">Início</a><a href="./downloads.html">Downloads</a></nav><main><h1>Arquivos para download</h1><p>Nenhum arquivo disponível.</p></main></body></html>
