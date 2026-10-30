@@ -7,3 +7,5 @@ body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem].sf-ima
 body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem].sf-imagem-inativa{filter:grayscale(1)!important}
 body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem].sf-imagem-ativa{transform:translateY(-8px) scale(1.2)!important;filter:none!important}
 body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem]:first-child>[data-forma-legenda]{left:0!important;transform:none!important}body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem]:last-child>[data-forma-legenda]{left:auto!important;right:0!important;transform:none!important}
+
+body.sf-retrato main.conteudo>.pagina-principal>.sf-texto{background:#000!important;padding:18px!important;border-radius:10px;box-sizing:border-box;color:#ff9800;scrollbar-color:#888 #111}body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem].sf-imagem-inativa>img{filter:grayscale(1)!important}body.sf-equipe #sitefacil-formas>span.forma-com-imagem[data-forma-imagem].sf-imagem-ativa>img{filter:none!important}
